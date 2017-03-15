@@ -8,7 +8,7 @@ function setup(){
 function draw(){
     
     //the background should change to pink when i click the screen.
-    background(50);
+    background(137, 102, 186);
     if(mouseIsPressed){
         background(300,0,100);
     }
@@ -17,8 +17,8 @@ function draw(){
     strokeWeight(9);
 
     
-    if(mouseY<150){
-        fill(50,0,200);
+    if(mouseX<150){
+        fill(130, 39, 107);
     }
     else{
         noFill();
