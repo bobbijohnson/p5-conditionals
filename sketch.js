@@ -10,7 +10,7 @@ function draw(){
     //the background should change to pink when i click the screen.
     background(137, 102, 186);
     if(mouseIsPressed){
-        background(300,0,100);
+        background(198, 89, 189);
     }
     //makes outline thick and white
     stroke(255);
@@ -28,7 +28,7 @@ function draw(){
     rect(x,200,100,100);
     
 //circle  should be moving because of this code
-    if(x=width || x<0){
+    if(x>width || x<0){
         console.log("CIRCLE IS OFF THE SCREEN!!!!")
         speed = speed * -1;
     }
